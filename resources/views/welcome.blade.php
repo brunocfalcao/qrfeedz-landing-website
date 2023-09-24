@@ -7,7 +7,7 @@
         <link rel="icon" type="image/png" href="{{ Vite::asset('resources/images/favicons/favicon.ico') }}">
 
         <!-- For iPhone and iPad -->
-        <link rel="apple-touch-icon" href="{{ Vite::asset('resources/images/favicons/apple-touch-icon.png') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ Vite::asset('resources/favicons/apple-touch-icon.png') }}">
 
         <!-- For Android -->
         <link rel="icon" type="image/png" sizes="192x192" href="{{ Vite::asset('resources/images/favicons/android-chrome-192x192.png') }}">
