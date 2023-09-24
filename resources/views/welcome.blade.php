@@ -3,6 +3,26 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Basic Meta Tags -->
+        <meta name="description" content="QRFeedz - We hear you. Using QR code feedback with artificial intelligence to improve your business.">
+        <meta name="keywords" content="QRFeedz, QR code, Feedback, Artificial Intelligence, Business Improvement">
+        <meta name="author" content="QRFeedz">
+
+        <!-- Facebook Open Graph -->
+        <meta property="og:title" content="QRFeedz - We hear you">
+        <meta property="og:description" content="Using QR code feedback with artificial intelligence to improve your business.">
+        <meta property="og:image" content="{{ Vite::asset('resources/images/logo.png') }}">
+        <meta property="og:url" content="https://qrfeedz.ch">
+        <meta property="og:type" content="website">
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="QRFeedz - We hear you">
+        <meta name="twitter:description" content="Using QR code feedback with artificial intelligence to improve your business.">
+        <meta name="twitter:image" content="{{ Vite::asset('resources/images/logo.png') }}">
+        <meta name="twitter:site" content="@qrfeedz">
+        <meta name="twitter:creator" content="@qrfeedz">
+
         <!-- Standard favicon -->
         <link rel="icon" type="image/png" href="{{ Vite::asset('resources/images/favicons/favicon.ico') }}">
 
