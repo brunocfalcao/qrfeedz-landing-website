@@ -64,8 +64,8 @@
     </head>
     <body>
         <div class="flex flex-col items-center justify-center mx-auto h-screen text-center gap-8">
-            <div class="rounded-logo relative h-64 w-64">
-                <img class="h-full w-full object-cover" src="{{ Vite::asset('resources/images/logo.png') }}">
+            <div class="rounded-logo relative xl:h-64 xl:w-64 w-48 h-48">
+                <img class="object-cover max-w-full max-h-64" src="{{ Vite::asset('resources/images/logo.png') }}">
             </div>
             <p class="text-white tracking-wider text-2xl">WE HEAR YOU.</p>
         </div>
