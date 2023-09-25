@@ -45,11 +45,28 @@
                 background-color: #111827;
                 font-family: 'Nova Mono', sans-serif;
             }
+
+            .rounded-logo::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                box-shadow: 0 0 40px rgba(255, 255, 255, 0.09),
+                            0 0 40px rgba(255, 255, 255, 0.07),
+                            0 0 40px rgba(255, 255, 255, 0.05),
+                            0 0 40px rgba(255, 255, 255, 0.03);
+                z-index: -1;
+            }
         </style>
     </head>
     <body>
         <div class="flex flex-col items-center justify-center mx-auto h-screen text-center gap-8">
-            <img class="h-64 w-64" src="{{ Vite::asset('resources/images/logo.png') }}">
+            <div class="rounded-logo relative h-64 w-64">
+                <img class="h-full w-full object-cover" src="{{ Vite::asset('resources/images/logo.png') }}">
+            </div>
             <p class="text-white tracking-wider text-2xl">WE HEAR YOU.</p>
         </div>
     </body>
